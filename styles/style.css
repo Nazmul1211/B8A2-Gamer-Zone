@@ -124,17 +124,22 @@ nav {
     display: flex;
     justify-content: space-between;
     background-image: url(../images/Group\ 14.png);
-    background-size: 50%;
+    background-size:fit-content;
     background-repeat: no-repeat;
     background-position: left;
     padding: 0 240px;
     gap: 70px;
 
 }
-
 .goat {
     width: 50%;
-    padding-top: 148px;
+    padding-top: 100px;
+}
+#cover-img{
+    width: 50%;
+}
+.cover-img{
+    width:100%;
 }
 .cover-quote {
     text-align: left;
@@ -161,4 +166,11 @@ nav {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+
+/* responsive design */
+/* for mobile devices */
+@media screen and (max-width: 576px) {
+    
 }
