@@ -9,39 +9,41 @@
 /* shared style */
 .font-primary {
     color: #3C354F;
-    text-align: center;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
 }
 
 .title-primary {
     color: #0B0223;
-    font-family: Work Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     margin: 0;
 }
 
-.tilte-secondary {}
+.tilte-secondary {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+}
 
 .btn {
     display: flex;
-    gap: 24px;
-    margin-top: 41px;
+    gap: 1.5rem;
+    margin-top: 2.56rem;
 }
 
 .btn-primary {
     color: #FFF;
-    padding: 0px 20px;
-    border-radius: 48px;
+    padding: 0 1.25rem;
+    border-radius: 3rem;
     background: #FF42A5;
     border: none;
 }
 
 .btn-secondary {
     color: #FFF;
-    padding: 0px 20px;
-    border-radius: 48px;
+    padding: 0 1.25rem;
+    border-radius: 3rem;
     background: #4EC5F7;
     border: none;
 }
@@ -50,7 +52,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 240px;
+    padding: 0 15rem;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     margin: 0;
@@ -58,19 +60,19 @@ nav {
 
 .title-and-image {
     display: flex;
-    gap: 20px;
+    gap: 1.125rem;
     align-items: center;
 }
 
 .logo {
-    width: 86px;
-    height: 40px;
+    width: 5.3rem;
+    height: 2.5rem;
 }
 
 .brand-title {
     color: #0B0223;
     text-align: center;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 
@@ -81,7 +83,7 @@ nav {
 .navbar {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .navbar ul {
@@ -91,7 +93,7 @@ nav {
 
 .navbar li {
     list-style: none;
-    margin-left: 32px;
+    margin-left: 2rem;
 }
 
 .navbar li a {
@@ -104,17 +106,17 @@ nav {
     justify-content: center;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    width: 262px;
-    height: 56px;
+    width: 16.3rem;
+    height: 5rem;
     /* padding: 17px 24px; */
 }
 
 .follow-us-text {
-    margin-right: 24px;
+    margin-right: 1.5rem;
 }
 
 .follow-us {
-    gap: 16px;
+    gap: 1rem;
 }
 
 /* navbar section design ends here */
@@ -124,26 +126,30 @@ nav {
     display: flex;
     justify-content: space-between;
     background-image: url(../images/Group\ 14.png);
-    background-size:fit-content;
+    background-size: fit-content;
     background-repeat: no-repeat;
     background-position: left;
-    padding: 0 240px;
-    gap: 70px;
+    padding: 0 15rem;
+    gap: 4.4rem;
 
 }
+
 .goat {
     width: 50%;
-    padding-top: 100px;
+    padding-top: 6rem;
 }
-#cover-img{
+
+#cover-img {
     width: 50%;
 }
-.cover-img{
-    width:100%;
+
+.cover-img {
+    width: 100%;
 }
+
 .cover-quote {
     text-align: left;
-    font-size: 95px;
+    font-size: 6rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -152,25 +158,173 @@ nav {
     margin: 0;
 }
 
-.cover-para-1{
+.cover-para-1 {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
 }
-.cover-para-2{
+
+.cover-para-2 {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
 }
-.cover-para-3{
+
+.cover-para-3 {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
 }
+
+/* gammer section style */
+.gammer {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    ;
+    padding: 4rem 15rem;
+    gap: 3.6rem;
+}
+
+.gammer-img{
+    width: 100%;
+}
+
+.gammer-content {
+    text-align: right;
+}
+
+.unleash {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+}
+
+
 
 
 /* responsive design */
 /* for mobile devices */
 @media screen and (max-width: 576px) {
-    
+
+    /* shared style */
+    .title-primary {
+        color: #0B0223;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .tilte-secondary {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .font-primary {
+        color: #3C354F;
+        text-align: center;
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    /* cover style */
+    .cover {
+        flex-direction: column-reverse;
+        background-image: url(../images/Group\ 14.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: left;
+        padding: .5rem;
+        gap: 4.3rem;
+
+    }
+
+    .goat {
+        width: 100%;
+        padding: 1.5rem 3rem 1.5rem 3rem;
+        margin: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cover-img {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: .6rem 3rem .6rem 2.5rem;
+        margin: 2rem 0 1rem 0;
+        width: 100%;
+    }
+
+    .cover-quote {
+        text-align: left;
+        font-size: 3rem;
+        font-weight: 800;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+    }
+
+    .cover-para-1 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .cover-para-2 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .cover-para-3 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    /* gammer style section */
+    .gammer {
+        flex-direction: column;
+        padding: 1rem 6.25rem;
+        gap: 3.6rem;
+    }
+    .gammer-img{
+        width: 100%;
+    }
+    .gammer-content {
+        text-align: center;
+    }
+    .unleash {
+        color: #534C64;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: right;
+    }
 }
