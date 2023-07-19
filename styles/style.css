@@ -1,0 +1,86 @@
+/* work sans font linked from google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* shared style */
+.font-primary {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* navbar style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 240px 46px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.title-and-image {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 86px;
+    height: 40px;
+}
+
+.brand-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.letter-G{
+    color: #FF42A5 ;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    margin-left: 32px;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    /* padding: 17px 24px; */
+}
+.follow-us-text{
+    margin-right: 24px;
+}
+.follow-us {
+    gap: 16px;
+}
+.fa-brands fa-youtube{
+    margin-right: 16px;
+}
