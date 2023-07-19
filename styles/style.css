@@ -21,7 +21,7 @@
 }
 
 .tilte-secondary {
-    color: #F948B2; 
+    color: #F948B2;
     text-align: right;
     font-size: 3rem;
     font-weight: 700;
@@ -216,29 +216,33 @@ nav {
 }
 
 /* play instantly section style */
-.play-instantly-section{
+.play-instantly-section {
     display: flex;
     /* justify-content: space-between; */
     gap: 7.5rem;
     text-align: left;
-    padding: 4rem 15rem;
+    padding: 4rem 15rem 0rem;
     text-align: right;
+    margin-bottom: 0;
 }
-.play-instantly-title-and-description{
+
+.play-instantly-title-and-description {
     text-align: center;
     justify-content: center;
     margin-top: 7rem;
     margin-left: 12rem;
 }
-.play-instantly-description{
+
+.play-instantly-description {
     width: 22rem;
 }
 
-.play-instantly-img1{
+.play-instantly-img1 {
     width: 70%;
     margin-left: 50px;
 }
-.play-instantly-img2{
+
+.play-instantly-img2 {
     position: relative;
     width: 40%;
     display: flex;
@@ -246,6 +250,32 @@ nav {
     bottom: 250px;
 }
 
+/* types of games section style */
+.types-of-games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    padding: 4rem 15rem;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.unique-games {
+    display: flex;
+    gap: 1rem;
+}
+
+.unique-games:hover {
+    padding: .8rem;
+    border: 1px solid #F948B2;
+    border-radius: 300px;
+}
+
+.unique-games3 {
+    padding: .8rem;
+    border: 1px solid #F948B2;
+    border-radius: 300px;
+}
 
 
 /* responsive design */
@@ -375,41 +405,44 @@ nav {
     }
 
     /* online games section */
-.online-games {
-    padding: 1rem 6.25rem;
-    text-align: center;
-}
+    .online-games {
+        padding: 1rem 6.25rem;
+        text-align: center;
+    }
 
-.online-games-img {
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: center;
-}
+    .online-games-img {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
 
-/* play instantly section style */
-.play-instantly-section{
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    padding: 1rem 6.25rem;
-}
-.play-instantly-title-and-description{
-    text-align: center;
-    justify-content: center;
-    margin-top: 0rem;
-}
-.play-instantly-description{
-    width: 100%;
-}
+    /* play instantly section style */
+    .play-instantly-section {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 1rem 6.25rem;
+    }
 
-.play-instantly-img1{
-    width: 100%;
-    margin-left: 40px;
-}
-.play-instantly-img2{
-    position: relative;
-    width: 50%;
-    display: flex;
-    bottom: 80px;
-}
+    .play-instantly-title-and-description {
+        text-align: center;
+        justify-content: center;
+        margin-top: 0rem;
+    }
+
+    .play-instantly-description {
+        width: 22rem;
+    }
+
+    .play-instantly-img1 {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .play-instantly-img2 {
+        position: relative;
+        width: 50%;
+        display: flex;
+        bottom: 80px;
+    }
 }
