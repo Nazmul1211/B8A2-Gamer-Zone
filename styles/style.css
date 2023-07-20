@@ -510,17 +510,23 @@ footer>p {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        padding: 1rem 6.25rem;
+        padding: 1rem 3rem;
+        margin-top: 5rem;
     }
 
     .play-instantly-title-and-description {
         text-align: center;
         justify-content: center;
         margin-top: 0rem;
+        margin-left: 0rem;
     }
 
     .play-instantly-description {
-        width: 22rem;
+        width: auto;
+    }
+    .play-instantly-img{
+        align-items: center;
+        padding-right: 2.5rem;
     }
 
     .play-instantly-img1 {
@@ -535,6 +541,8 @@ footer>p {
         bottom: 80px;
     }
 
+
+
     /* types of games section style */
     .types-of-games {
         display: grid;
@@ -542,7 +550,7 @@ footer>p {
         gap: 1rem;
         padding: 1rem 3rem;
         align-items: center;
-
+        margin-top: 6rem;
     }
 
     .unique-games {
@@ -602,30 +610,6 @@ footer>p {
         flex-wrap: wrap;
         gap: 2rem;
         margin-top: 1rem;
-    }
-
-    /* .footer-menu>li {
-        list-style: none;
-    }
-
-    .footer-menu>li>a {
-        text-decoration: none;
-        color: #FFF;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 600;
-    } */
-
-    .footer-social {
-        display: flex;
-        gap: 1.8rem;
-        align-items: center;
-        justify-content: center;
-        margin-top: 3.5rem;
-    }
-    .about{
-        justify-content: center;
-        align-items: center;
     }
 
     .about ul{
